@@ -1,0 +1,4 @@
+CREATE MULTISET TABLE myDB.TestTable
+(
+    TestColumn VARCHAR(255)
+)PRIMARY INDEX(TestColumn)
